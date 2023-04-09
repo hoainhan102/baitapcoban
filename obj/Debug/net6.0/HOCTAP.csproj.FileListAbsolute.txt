@@ -1,0 +1,15 @@
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\HOCTAP.exe
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\HOCTAP.deps.json
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\HOCTAP.runtimeconfig.json
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\HOCTAP.dll
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\ref\HOCTAP.dll
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\bin\Debug\net6.0\HOCTAP.pdb
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.csproj.AssemblyReference.cache
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.AssemblyInfoInputs.cache
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.AssemblyInfo.cs
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.csproj.CoreCompileInputs.cache
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.dll
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\ref\HOCTAP.dll
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.pdb
+C:\Users\WIN 10\source\repos\HOCTAPC\HOCTAP\HOCTAP\obj\Debug\net6.0\HOCTAP.genruntimeconfig.cache
