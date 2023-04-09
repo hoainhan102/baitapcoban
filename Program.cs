@@ -6,8 +6,8 @@ namespace P01_IfElse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(bai17(14443));
-            //Console.WriteLine(bai16(6));
+            //Console.WriteLine(bai17(14443));
+            Console.WriteLine(mang4());
         }
 
 
@@ -262,6 +262,116 @@ namespace P01_IfElse
                 goto songuyento;
             }
 
+        }
+        //M1.Viết chương trình tìm những số xuất hiện trên 2 lần trong một mảng số nguyên
+         static void mang1()
+        {
+            int[] mang = { 1, 2, 3, 3, 4, 3, 2, 5, 7, 6, 3 };
+            int dem = 0;
+            foreach (var item in mang)
+            {
+               Console.WriteLine(item);
+                dem++;
+            }
+        }
+        //M3.Viết chương trình tìm tổng của các số chẵn và trừ đi tổng các số lẻ trong một mảng số nguyên
+        static int mang3()
+        {
+            int[] mang = { 1, 2, 3, 3, 4, 3, 2, 5, 7, 6, 3 };
+            int tongchan = 0;
+            int tongle = 0;
+            
+            for(int i = 0;i < mang.Length; i++)
+            {
+                if(mang[i] %2 == 0)
+                {
+                    tongchan += mang[i];
+                }
+                else
+                {
+                    tongle += mang[i];
+                }
+            }
+            int ketqua = tongchan - tongle;
+            return ketqua;
+        }
+        //M4.Viết chương trình tính tổng của các số nguyên tố trong một mảng số nguyên
+        static int mang4()
+        {
+            int[] mang = { 1,3,5,10,11,17,20 };
+            int tong = 0;
+
+            for (int i = 0; i < mang.Length; i++)
+            {
+                int songuyento=0;
+                int dem = 0;
+                for (int j = 2; j < mang[i];j++)
+
+                {
+                    
+                    if (mang[i]== 1 || mang[i] == 2)
+                    {
+                        dem = 0;
+                    }
+                    else if (mang[i]>2 )
+                    {
+                       
+                        if(mang[i] % j == 0)
+                        {
+                            dem++;
+                        }
+                        
+                        
+                    }
+                    else{
+                        dem = -1; 
+                    }
+                    
+
+                }
+                if (dem == 0)
+                {
+                    songuyento = mang[i];
+                    tong += songuyento;
+                }
+
+            }
+            return tong;
+        }
+        //M8.Viết chương trình đếm xem có bao nhiêu số chia hết cho 3 nhưng không chia hết cho 5 trong 1 mảng 1 chiều
+        static int mang8()
+        {
+            int[] mang = { 3,5,7,9,15,10,30,12 };
+            int dem = 0;
+            
+
+            for (int i = 0; i < mang.Length; i++)
+            {
+                if (mang[i] % 3 == 0 && mang[i] % 5 != 0)
+                {
+                    dem++;
+                }
+                
+            }
+            return dem;
+        }
+        //M10.Viết chương trình tính tổng các số chính phương từ mảng 1 chiều
+        static int mang10()
+        {
+            int[] mang = { 3, 5, 7, 9, 16, 10, 25, 12 };
+            int tong = 0;
+
+
+            for (int i = 0; i < mang.Length; i++)
+            {
+                int songuyen = (int)Math.Sqrt(mang[i]);
+                if (songuyen* songuyen == mang[i])
+                {
+                    tong+= mang[i];
+                }
+
+            }
+            return tong;
         }
     }
 
